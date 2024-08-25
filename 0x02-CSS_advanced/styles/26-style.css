@@ -4,6 +4,8 @@
 *, *:before, *:after {
     box-sizing: border-box;
 }
+/* Add the missing opening curly brace */
+
 
 html {
     scroll-behavior: smooth;
@@ -112,7 +114,7 @@ a:active {
 .button:hover {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
-    background: var(--button-hover-background));
+    background: var(--button-hover-background);
 }
 
 .card-category {

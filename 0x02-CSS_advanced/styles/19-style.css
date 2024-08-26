@@ -176,7 +176,7 @@ a:active {
     color: var(--nav-item-link-hover);
 }
 
-ul .nav {
+ul .row {
     margin: 0;
     padding: none;
     list-style: none;

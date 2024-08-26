@@ -47,10 +47,10 @@ html {
     --section-body-padding: 0 0 3rem;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
-    --footer-padding: 5rem 0.1rem;
+    --footer-padding: 5rem 0 1rem;
 
     --nav-item-font-family: var(--font-family-title);
-    --nav-item-font-weight: var(font-family-bold);
+    --nav-item-font-weight: var(font-weight-bold);
     --nav-tiem-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
@@ -162,18 +162,18 @@ a:active {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
-    letter-spacing: var(nav-item-letter-spacing);
-    display: var(nav-item-display);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
 
 .nav .nav-link {
     display: block;
-    padding: 0.5rem, 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .nav .nav-item:hover {
-    color: var(nav-item-link-hover);
+    color: var(--nav-item-link-hover);
 }
 
 ul .nav {

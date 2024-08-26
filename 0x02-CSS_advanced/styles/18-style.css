@@ -151,7 +151,7 @@ a:active {
 .nav {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style-type: none;
     text-align: center;
 }
 
@@ -159,8 +159,8 @@ a:active {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
-    letter-spacing: var(nav-item-letter-spacing);
-    display: var(nav-item-display);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
 
@@ -169,6 +169,6 @@ a:active {
     padding: 0.5rem, 1rem;
 }
 
-.nav .nav-item:hover {
+.nav .nav-link:hover {
     color: var(nav-item-link-hover);
 }

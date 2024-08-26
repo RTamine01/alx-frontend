@@ -107,10 +107,6 @@ a:active {
     color: var(--color-primary);
 }
 
-.visually-hidden {
-    display: none;
-}
-
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);

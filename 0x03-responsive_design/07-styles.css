@@ -646,7 +646,7 @@
         padding: 2rem;
     }
     }
-  }
+  
   /* Post
       ============================= */
   
@@ -1011,7 +1011,7 @@
 
 @media (max-width: 480px) {
     .header-logo {
-        flex-basus: 70%;
+        flex-basis: 70%;
     }
 }
 
